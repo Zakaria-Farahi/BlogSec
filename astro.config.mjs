@@ -19,7 +19,7 @@ import sitemap from '@astrojs/sitemap';
 import {parseDirectiveNode} from "./src/plugins/remark-directive-rehype.js";
 
 const oklchToHex = (str) => {
-  const DEFAULT_HUE = 300
+  const DEFAULT_HUE = 180
   const regex = /-?\d+(\.\d+)?/g
   const matches = str.string.match(regex)
   const lch = [matches[0], matches[1], DEFAULT_HUE]
