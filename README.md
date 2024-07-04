@@ -2,7 +2,7 @@
 
 A static blog template built with [Astro](https://astro.build).
 
-[**🖥️Live Demo (No1V4)**]([https://fuwari.vercel.app](https://zakaria-farahi.github.io/BlogSec/))
+[**🖥️Live Demo (Vercel)**](https://zakaria-farahi.github.io/BlogSec/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 
 ![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
