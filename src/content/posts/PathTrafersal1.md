@@ -2,7 +2,7 @@
 title: Lab: File path traversal, simple case
 published: 2024-10-01
 description: Solving lab File path traversal
-tags: [PortSwigger, Path traversal, Lab]
+tags: [PortSwigger, "Path traversal", Lab]
 category: PortSwigger
 draft: false
 ---
