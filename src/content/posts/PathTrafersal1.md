@@ -20,4 +20,5 @@ To solve the lab, retrieve the contents of the /etc/passwd file.
 
 look for any image, inspect it you should src like /imgae?filename=10.jpg thats mean the image is in /var/www/img/10.jpg we need just change 10.jpg with ../../../etc/passwd
 
-[//]: # (![example image]&#40;./img/Screenshot1.png "An exemplary image"&#41;)
+![Screenshot1](https://github.com/user-attachments/assets/cc68f06b-1d6a-4b1f-b7b1-5a95c7270f24)
+
