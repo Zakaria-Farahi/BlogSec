@@ -2,12 +2,11 @@
 title: Lab File path traversal simple case
 published: 2024-10-01
 description: Solving lab File path traversal
-image: "../img/portswigger.png"
+image: "../img/portswigger.webp"
 tags: [PortSwigger, "Path traversal", Lab]
 category: PortSwigger
 draft: false
 ---
-![Cover Image](../img/portswigger.png)
 
 # File path traversal, simple case
 
