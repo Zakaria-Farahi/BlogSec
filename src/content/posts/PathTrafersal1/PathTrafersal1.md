@@ -7,6 +7,7 @@ tags: [PortSwigger, "Path traversal", Lab]
 category: PortSwigger
 draft: false
 ---
+![Cover Image](../img/portswigger.png)
 
 # File path traversal, simple case
 
