@@ -5,7 +5,7 @@ description: Solving lab File path traversal
 image: "../img/portswigger.webp"
 tags: [PortSwigger, "Path traversal", Lab]
 category: PortSwigger
-draft: false
+draft: true
 ---
 
 # File path traversal, simple case
