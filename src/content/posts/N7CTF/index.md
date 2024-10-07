@@ -188,8 +188,11 @@ you will get the flag
 ![Screenshot from 2024-10-06 23-14-32](https://github.com/user-attachments/assets/1e0ad5f7-2107-4190-b9d0-12093942199d)
 
 
-> All challenges in : [source](https://github.com/Zakaria-Farahi/N7CTF_2024)
 ## Misc
 ### Escape 3okacha
 
 Blacklisted[27] i think
+
+
+> All challenges in : [GitHub](https://github.com/Zakaria-Farahi/N7CTF_2024)
+
