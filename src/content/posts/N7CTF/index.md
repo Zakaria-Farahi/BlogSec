@@ -15,12 +15,9 @@ so, let's start with the network challenges.
 
 ## Network
 ### PORT FLOW
-
-**link**: 
-
-**problem**: 
-
 the challenge was easy, just run the game and match the protocols with their ports.
+![Screenshot from 2024-10-06 12-07-10](https://github.com/user-attachments/assets/d9533b1f-d8c0-4714-98b9-6dc1b2d55442)
+
 
 | Protocol | Port Number |
 |----------|-------------|
@@ -38,14 +35,12 @@ the challenge was easy, just run the game and match the protocols with their por
 | NTP      | 123         |
 
 ### PACKET LAB
+for this challenge, you first need to enable port Fa0 on the pc. 
+![Screenshot from 2024-10-06 12-34-02](https://github.com/user-attachments/assets/35fc094c-a559-4ba7-a222-ec2bead582db)
 
-**link**: 
-
-**problem**: 
-
-for this challenge, you first need to enable port Fa0 on the pc.  
 change the ip for all servers to dhcp (except, of course, the dhcp server).  
 in the dns server, go to the **Services** tab and select **DNS**.  
+![Screenshot from 2024-10-06 12-37-09](https://github.com/user-attachments/assets/7401612e-b980-47a7-8c72-d041b31c2e50)
 
 
 so, 192.168.1.3 is the ip of **CTF_SERVER**, but it doesn't give us anything.  
@@ -55,32 +50,24 @@ or skip all that, go to **Server_MESG Services**, **HTTP**, and click **edit the
 
 ## Binary
 ### BOMB GAME
-**link**: 
-
-**problem**: 
-
 it's just a binary to hex problem.
 
 ### Key to the Vault
-**link**: 
-
-**problem**: 
-
 use dogbolt.org and upload the vulnerable file, then look for this code `3N5ET_5UPR3MACY`.  
 it's the secret key you should use to get the flag.
+![Screenshot from 2024-10-06 12-47-50](https://github.com/user-attachments/assets/e8b3f5a0-c529-411c-b13b-6a9b9c59a454)
+
+
+![Screenshot from 2024-10-06 12-48-26](https://github.com/user-attachments/assets/1371ef03-8ad0-4618-b09f-c3118fc066e4)
 
 ### PWN the Vault
-**link**: 
-
-**problem**: 
-
 the challenge should not include canary but i think there is a problem
+![Screenshot from 2024-10-06 12-50-59](https://github.com/user-attachments/assets/c20df822-c784-4659-a60d-cd4829ab9025)
+
 
 ### EMAIL
-**link**: 
+![Screenshot from 2024-10-06 18-33-08](https://github.com/user-attachments/assets/749cbaf2-5a64-4d39-9733-509f47925bc6)
 
-**problem**:  
-![img]
 
 ### IMAGE STEGANO
 
@@ -128,10 +115,6 @@ print("Extracted message:", hidden_message)
 ```
 
 ### AUDIO STEGANO
-**link**: 
-
-**problem**: 
-
 same as before:
 
 ```python
@@ -173,31 +156,19 @@ print("Extracted message:", hidden_message)
 
 ## Forensics
 ### Fake TP
-
-**link**: 
-
-**problem**: 
-
 open the file with wireshark in the line 20 i've seen (text/x-sh) it may be interested to look at it
 click follow TCP stream you should see some functions just remove the bash in every function so it will not be executed and it should give u the flag
+![Screenshot from 2024-10-07 10-57-38](https://github.com/user-attachments/assets/2121fabf-1ec9-4460-a1a8-2d09bd1c3a2e)
+
+![Screenshot from 2024-10-07 11-00-51](https://github.com/user-attachments/assets/c376d28a-0f83-4219-ba03-45c7e7f71825)
 
 ## Cryptography
 ### Duplicate Deception
-
-**link**: 
-
-**problem**: 
-
 i found this in reddit https://www.reddit.com/r/DataHoarder/comments/gokrmx/these_different_2_images_has_the_same_md5_hash/ just upload the two files and u will get the flag
 
 
 ## Web
 ### Charikat Dajaj
-
-**link**: 
-
-**problem**: 
-
 capture the first request with burpsuite change the user-agent to charikat dajaj it will redirect you to login page tab anything send and capture the request, change the user-agent to charikat dajaj again,
 copie the request and make file .txt with it
 in sqlmap run 
@@ -213,6 +184,8 @@ now run
 sqlmap -r req.txt --dbms=MySQL -D dbtry1 -T users --dump
 ```
 you will get the flag
+
+![Screenshot from 2024-10-06 23-14-32](https://github.com/user-attachments/assets/1e0ad5f7-2107-4190-b9d0-12093942199d)
 
 ## Misc
 ### Escape 3okacha
