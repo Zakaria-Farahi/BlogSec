@@ -14,6 +14,10 @@ First, I’d like to thank the organizers, INSEC and Cyberforces, for putting to
 ### Apisa
 
 It was fun challenge i got the first blood on it
+
+![image](https://github.com/user-attachments/assets/572fb487-3463-423c-848d-19006c9a0aa0)
+
+
 so let's start with searching for potentiel vulnerbilities
 1. JWT Token Vulnerabilities:
    - The code accepts `alg: none` in the JWT header
@@ -135,6 +139,9 @@ $$
 p = t + s, \quad q = t - s 
 $$
 
+![image](https://github.com/user-attachments/assets/a0b1b949-6e2a-411e-8521-46f0e8f41642)
+
+
 ```python
 from Crypto.Util.number import isPrime, long_to_bytes
 import gmpy2
@@ -190,6 +197,8 @@ print(f"e = {e}")
 ```
 
 now after we have N, C et e we can use dcode to solve the challenge
+![image](https://github.com/user-attachments/assets/3990605a-3bba-4338-9ae4-32375c086cc2)
+
 
 ## Rev
 ### asm
