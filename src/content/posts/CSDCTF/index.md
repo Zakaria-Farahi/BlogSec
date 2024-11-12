@@ -105,7 +105,7 @@ This RSA challenge provides us with \( n \), the ciphertext, and \( e \). We nee
 
 We can use Fermat's factorization method:
 
-Given \( n = p \times q \), we know:
+Given \( n = p * q \), we know:
 
 $$ 
 n = \left( \frac{p+q}{2} \right)^2 - \left( \frac{p-q}{2} \right)^2 
@@ -113,8 +113,9 @@ $$
 
 Since \( p \) and \( q \) are close, we define:
 
-- \( s = \frac{p+q}{2} \)
-- \( t = \frac{p-q}{2} \)
+
+$\left( s = \frac{p+q}{2} \right)$ and $\left( t = \frac{p-q}{2} \right)$
+
 
 So,
 
@@ -124,11 +125,11 @@ $$
 
 We can start with an approximation:
 
-1. Begin with \( t = \sqrt{n} \).
+1. Begin with $t = \sqrt{n}$.
 2. Increment \( t \) until we find that \( t \) is a prime number.
-3. Then, calculate \( s^2 = t^2 - n \) to see if it’s a perfect square.
+3. Then, calculate $s^2 = t^2 - n$ to see if it’s a perfect square.
 
-Finally, we retrieve \( p \) and \( q \):
+Finally, we retrieve p and q :
 
 $$ 
 p = t + s, \quad q = t - s 
