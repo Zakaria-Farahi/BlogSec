@@ -174,6 +174,22 @@ else:
     print("Failed to find prime factors")
 ```
 
+### Chinesse (i dont remember the name XD)
+solving the challenge using seed 2000 because its the length of hint table
+we need to get e using Chinesse Reminder theoreme
+
+```python
+from sympy.ntheory.modular import crt
+
+ll = []  # list of random integers generated with the given seed (2000)
+hints =  []  # the hints provided, each hint[i] = e % ll[i]
+
+e, _ = crt(ll, hints)
+print(f"e = {e}")
+```
+
+now after we have N, C et e we can use dcode to solve the challenge
+
 ## Rev
 ### asm
 
