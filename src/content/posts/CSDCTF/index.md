@@ -1,6 +1,6 @@
 ---
 title: Cybersecurity Day CTF
-published: 2024-10-07
+published: 2024-11-12
 description: Solving CSD CTF challenges
 image: "./img.jpeg"
 tags: [CSD ,INSEC, CTF]
